@@ -6,7 +6,8 @@ const SummaryApi = {
     method:"post"
   },
   OtpVerification:{
-    url: baseURL+ "/api/user/verify-email"
+    url: baseURL+ "/api/user/verify-email",
+    method:"post"
   }
 ,
 
