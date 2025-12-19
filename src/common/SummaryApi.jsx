@@ -1,4 +1,4 @@
-export const baseURL = "http://localhost:5000";
+export const baseURL = "https://producter-dashboard-server-1.onrender.com/";
 
 const SummaryApi = {
   Register:{
