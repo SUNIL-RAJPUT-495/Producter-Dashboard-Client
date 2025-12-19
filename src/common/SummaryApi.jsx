@@ -1,4 +1,4 @@
-export const baseURL = "https://producter-dashboard-server-1.onrender.com/";
+export const baseURL = "https://producter-dashboard-server.vercel.app";
 
 const SummaryApi = {
   Register:{
