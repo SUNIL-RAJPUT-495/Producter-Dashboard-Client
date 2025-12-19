@@ -15,10 +15,10 @@ export const AuthLayout = () => {
     >
       <Row className="h-100 g-0">
         
-        {/* LEFT IMAGE */}
+       {/* left image */}
         <Col
           md={6}
-          className="d-none d-md-flex align-items-center justify-content-center h-100"
+          className="d-none d-md-flex align-items-center justify-content-center h-100 bg-light"
         >
           <img
             src={Fram}
@@ -34,7 +34,7 @@ export const AuthLayout = () => {
         {/* RIGHT FORM */}
         <Col
           md={6}
-          className="d-flex align-items-center justify-content-center h-100"
+          className="d-flex align-items-center justify-content-center h-100 bg-light " 
         >
           <Outlet />
         </Col>
